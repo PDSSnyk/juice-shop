@@ -1,0 +1,706 @@
+[
+  {
+    "vulnerabilities": [
+      {
+        "id": "snyk:lic:npm:goof:GPL-2.0",
+        "packageName": "goof",
+        "semver": {
+          "vulnerable": [
+            ">=0"
+          ]
+        },
+        "creationTime": "2022-09-20T07:58:18.761Z",
+        "description": "GPL-2.0 license",
+        "language": "js",
+        "license": "GPL-2.0",
+        "packageManager": "npm",
+        "publicationTime": "2022-09-20T07:58:18.761Z",
+        "title": "GPL-2.0 license",
+        "type": "license",
+        "severity": "high",
+        "severityWithCritical": "high",
+        "from": [
+          "goof@1.0.1"
+        ],
+        "upgradePath": [],
+        "isUpgradable": false,
+        "isPatchable": false,
+        "name": "goof",
+        "version": "1.0.1"
+      }
+    ],
+    "ok": false,
+    "dependencyCount": 164,
+    "org": "pdssnyk",
+    "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.25.0\n# ignores vulnerabilities until expiry date; change duration by modifying expiry date\nignore:\n  SNYK-JS-EJS-2803307:\n    - '*':\n        reason: None Given\n        expires: 2022-06-17T14:00:12.976Z\n        created: 2022-05-18T14:00:12.979Z\n        source: cli\n  GPL-2.0:\n    - '*':\n        reason: None Given\n        expires: 2022-06-17T14:01:08.003Z\n        created: 2022-05-18T14:01:08.010Z\n        source: cli\npatch: {}\n",
+    "isPrivate": true,
+    "licensesPolicy": {
+      "severities": {},
+      "orgLicenseRules": {
+        "AGPL-1.0": {
+          "licenseType": "AGPL-1.0",
+          "severity": "high",
+          "instructions": "test"
+        },
+        "AGPL-3.0": {
+          "licenseType": "AGPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "Artistic-1.0": {
+          "licenseType": "Artistic-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "Artistic-2.0": {
+          "licenseType": "Artistic-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CDDL-1.0": {
+          "licenseType": "CDDL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CPOL-1.02": {
+          "licenseType": "CPOL-1.02",
+          "severity": "high",
+          "instructions": "test2"
+        },
+        "EPL-1.0": {
+          "licenseType": "EPL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "GPL-2.0": {
+          "licenseType": "GPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "GPL-3.0": {
+          "licenseType": "GPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "LGPL-2.0": {
+          "licenseType": "LGPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-2.1": {
+          "licenseType": "LGPL-2.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-3.0": {
+          "licenseType": "LGPL-3.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-1.1": {
+          "licenseType": "MPL-1.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-2.0": {
+          "licenseType": "MPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MS-RL": {
+          "licenseType": "MS-RL",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "SimPL-2.0": {
+          "licenseType": "SimPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        }
+      }
+    },
+    "packageManager": "npm",
+    "projectId": "871d2077-f398-454e-8a52-afd13a851910",
+    "ignoreSettings": {
+      "adminOnly": false,
+      "reasonRequired": false,
+      "disregardFilesystemIgnores": false
+    },
+    "summary": "1 vulnerable dependency path",
+    "remediation": {
+      "unresolved": [
+        {
+          "id": "snyk:lic:npm:goof:GPL-2.0",
+          "packageName": "goof",
+          "semver": {
+            "vulnerable": [
+              ">=0"
+            ]
+          },
+          "creationTime": "2022-09-20T07:58:18.761Z",
+          "description": "GPL-2.0 license",
+          "language": "js",
+          "license": "GPL-2.0",
+          "packageManager": "npm",
+          "publicationTime": "2022-09-20T07:58:18.761Z",
+          "title": "GPL-2.0 license",
+          "type": "license",
+          "severity": "high",
+          "from": [
+            "goof@1.0.1"
+          ],
+          "upgradePath": [],
+          "isUpgradable": false,
+          "isPatchable": false,
+          "isPinnable": false,
+          "isRuntime": false,
+          "name": "goof",
+          "version": "1.0.1",
+          "severityWithCritical": "high"
+        }
+      ],
+      "upgrade": {},
+      "patch": {},
+      "ignore": {},
+      "pin": {}
+    },
+    "filesystemPolicy": true,
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "projectName": "goof",
+    "foundProjectCount": 5,
+    "displayTargetFile": "package-lock.json",
+    "path": "/Users/paulspencer/Code/goof"
+  },
+  {
+    "vulnerabilities": [
+      {
+        "id": "snyk:lic:npm:goof:GPL-2.0",
+        "packageName": "goof",
+        "semver": {
+          "vulnerable": [
+            ">=0"
+          ]
+        },
+        "creationTime": "2022-09-20T07:58:18.761Z",
+        "description": "GPL-2.0 license",
+        "language": "js",
+        "license": "GPL-2.0",
+        "packageManager": "npm",
+        "publicationTime": "2022-09-20T07:58:18.761Z",
+        "title": "GPL-2.0 license",
+        "type": "license",
+        "severity": "high",
+        "severityWithCritical": "high",
+        "from": [
+          "goof@1.0.1"
+        ],
+        "upgradePath": [],
+        "isUpgradable": false,
+        "isPatchable": false,
+        "name": "goof",
+        "version": "1.0.1"
+      }
+    ],
+    "ok": false,
+    "dependencyCount": 164,
+    "org": "pdssnyk",
+    "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.25.0\nignore: {}\npatch: {}\n",
+    "isPrivate": true,
+    "licensesPolicy": {
+      "severities": {},
+      "orgLicenseRules": {
+        "AGPL-1.0": {
+          "licenseType": "AGPL-1.0",
+          "severity": "high",
+          "instructions": "test"
+        },
+        "AGPL-3.0": {
+          "licenseType": "AGPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "Artistic-1.0": {
+          "licenseType": "Artistic-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "Artistic-2.0": {
+          "licenseType": "Artistic-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CDDL-1.0": {
+          "licenseType": "CDDL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CPOL-1.02": {
+          "licenseType": "CPOL-1.02",
+          "severity": "high",
+          "instructions": "test2"
+        },
+        "EPL-1.0": {
+          "licenseType": "EPL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "GPL-2.0": {
+          "licenseType": "GPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "GPL-3.0": {
+          "licenseType": "GPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "LGPL-2.0": {
+          "licenseType": "LGPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-2.1": {
+          "licenseType": "LGPL-2.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-3.0": {
+          "licenseType": "LGPL-3.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-1.1": {
+          "licenseType": "MPL-1.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-2.0": {
+          "licenseType": "MPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MS-RL": {
+          "licenseType": "MS-RL",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "SimPL-2.0": {
+          "licenseType": "SimPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        }
+      }
+    },
+    "packageManager": "npm",
+    "projectId": "871d2077-f398-454e-8a52-afd13a851910",
+    "ignoreSettings": {
+      "adminOnly": false,
+      "reasonRequired": false,
+      "disregardFilesystemIgnores": false
+    },
+    "summary": "1 vulnerable dependency path",
+    "remediation": {
+      "unresolved": [
+        {
+          "id": "snyk:lic:npm:goof:GPL-2.0",
+          "packageName": "goof",
+          "semver": {
+            "vulnerable": [
+              ">=0"
+            ]
+          },
+          "creationTime": "2022-09-20T07:58:18.761Z",
+          "description": "GPL-2.0 license",
+          "language": "js",
+          "license": "GPL-2.0",
+          "packageManager": "npm",
+          "publicationTime": "2022-09-20T07:58:18.761Z",
+          "title": "GPL-2.0 license",
+          "type": "license",
+          "severity": "high",
+          "from": [
+            "goof@1.0.1"
+          ],
+          "upgradePath": [],
+          "isUpgradable": false,
+          "isPatchable": false,
+          "isPinnable": false,
+          "isRuntime": false,
+          "name": "goof",
+          "version": "1.0.1",
+          "severityWithCritical": "high"
+        }
+      ],
+      "upgrade": {},
+      "patch": {},
+      "ignore": {},
+      "pin": {}
+    },
+    "filesystemPolicy": false,
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "projectName": "goof",
+    "foundProjectCount": 5,
+    "displayTargetFile": "3/package-lock.json",
+    "path": "/Users/paulspencer/Code/goof"
+  },
+  {
+    "vulnerabilities": [
+      {
+        "id": "snyk:lic:npm:goof:GPL-2.0",
+        "packageName": "goof",
+        "semver": {
+          "vulnerable": [
+            ">=0"
+          ]
+        },
+        "creationTime": "2022-09-20T07:58:18.761Z",
+        "description": "GPL-2.0 license",
+        "language": "js",
+        "license": "GPL-2.0",
+        "packageManager": "npm",
+        "publicationTime": "2022-09-20T07:58:18.761Z",
+        "title": "GPL-2.0 license",
+        "type": "license",
+        "severity": "high",
+        "severityWithCritical": "high",
+        "from": [
+          "goof@1.0.1"
+        ],
+        "upgradePath": [],
+        "isUpgradable": false,
+        "isPatchable": false,
+        "name": "goof",
+        "version": "1.0.1"
+      }
+    ],
+    "ok": false,
+    "dependencyCount": 164,
+    "org": "pdssnyk",
+    "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.25.0\nignore: {}\npatch: {}\n",
+    "isPrivate": true,
+    "licensesPolicy": {
+      "severities": {},
+      "orgLicenseRules": {
+        "AGPL-1.0": {
+          "licenseType": "AGPL-1.0",
+          "severity": "high",
+          "instructions": "test"
+        },
+        "AGPL-3.0": {
+          "licenseType": "AGPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "Artistic-1.0": {
+          "licenseType": "Artistic-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "Artistic-2.0": {
+          "licenseType": "Artistic-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CDDL-1.0": {
+          "licenseType": "CDDL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CPOL-1.02": {
+          "licenseType": "CPOL-1.02",
+          "severity": "high",
+          "instructions": "test2"
+        },
+        "EPL-1.0": {
+          "licenseType": "EPL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "GPL-2.0": {
+          "licenseType": "GPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "GPL-3.0": {
+          "licenseType": "GPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "LGPL-2.0": {
+          "licenseType": "LGPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-2.1": {
+          "licenseType": "LGPL-2.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-3.0": {
+          "licenseType": "LGPL-3.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-1.1": {
+          "licenseType": "MPL-1.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-2.0": {
+          "licenseType": "MPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MS-RL": {
+          "licenseType": "MS-RL",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "SimPL-2.0": {
+          "licenseType": "SimPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        }
+      }
+    },
+    "packageManager": "npm",
+    "projectId": "871d2077-f398-454e-8a52-afd13a851910",
+    "ignoreSettings": {
+      "adminOnly": false,
+      "reasonRequired": false,
+      "disregardFilesystemIgnores": false
+    },
+    "summary": "1 vulnerable dependency path",
+    "remediation": {
+      "unresolved": [
+        {
+          "id": "snyk:lic:npm:goof:GPL-2.0",
+          "packageName": "goof",
+          "semver": {
+            "vulnerable": [
+              ">=0"
+            ]
+          },
+          "creationTime": "2022-09-20T07:58:18.761Z",
+          "description": "GPL-2.0 license",
+          "language": "js",
+          "license": "GPL-2.0",
+          "packageManager": "npm",
+          "publicationTime": "2022-09-20T07:58:18.761Z",
+          "title": "GPL-2.0 license",
+          "type": "license",
+          "severity": "high",
+          "from": [
+            "goof@1.0.1"
+          ],
+          "upgradePath": [],
+          "isUpgradable": false,
+          "isPatchable": false,
+          "isPinnable": false,
+          "isRuntime": false,
+          "name": "goof",
+          "version": "1.0.1",
+          "severityWithCritical": "high"
+        }
+      ],
+      "upgrade": {},
+      "patch": {},
+      "ignore": {},
+      "pin": {}
+    },
+    "filesystemPolicy": false,
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "projectName": "goof",
+    "foundProjectCount": 5,
+    "displayTargetFile": "4/package-lock.json",
+    "path": "/Users/paulspencer/Code/goof"
+  },
+  {
+    "vulnerabilities": [
+      {
+        "id": "snyk:lic:npm:goof:GPL-2.0",
+        "packageName": "goof",
+        "semver": {
+          "vulnerable": [
+            ">=0"
+          ]
+        },
+        "creationTime": "2022-09-20T07:58:18.761Z",
+        "description": "GPL-2.0 license",
+        "language": "js",
+        "license": "GPL-2.0",
+        "packageManager": "npm",
+        "publicationTime": "2022-09-20T07:58:18.761Z",
+        "title": "GPL-2.0 license",
+        "type": "license",
+        "severity": "high",
+        "severityWithCritical": "high",
+        "from": [
+          "goof@1.0.1"
+        ],
+        "upgradePath": [],
+        "isUpgradable": false,
+        "isPatchable": false,
+        "name": "goof",
+        "version": "1.0.1"
+      }
+    ],
+    "ok": false,
+    "dependencyCount": 164,
+    "org": "pdssnyk",
+    "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.25.0\nignore: {}\npatch: {}\n",
+    "isPrivate": true,
+    "licensesPolicy": {
+      "severities": {},
+      "orgLicenseRules": {
+        "AGPL-1.0": {
+          "licenseType": "AGPL-1.0",
+          "severity": "high",
+          "instructions": "test"
+        },
+        "AGPL-3.0": {
+          "licenseType": "AGPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "Artistic-1.0": {
+          "licenseType": "Artistic-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "Artistic-2.0": {
+          "licenseType": "Artistic-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CDDL-1.0": {
+          "licenseType": "CDDL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CPOL-1.02": {
+          "licenseType": "CPOL-1.02",
+          "severity": "high",
+          "instructions": "test2"
+        },
+        "EPL-1.0": {
+          "licenseType": "EPL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "GPL-2.0": {
+          "licenseType": "GPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "GPL-3.0": {
+          "licenseType": "GPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "LGPL-2.0": {
+          "licenseType": "LGPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-2.1": {
+          "licenseType": "LGPL-2.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-3.0": {
+          "licenseType": "LGPL-3.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-1.1": {
+          "licenseType": "MPL-1.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-2.0": {
+          "licenseType": "MPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MS-RL": {
+          "licenseType": "MS-RL",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "SimPL-2.0": {
+          "licenseType": "SimPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        }
+      }
+    },
+    "packageManager": "npm",
+    "projectId": "871d2077-f398-454e-8a52-afd13a851910",
+    "ignoreSettings": {
+      "adminOnly": false,
+      "reasonRequired": false,
+      "disregardFilesystemIgnores": false
+    },
+    "summary": "1 vulnerable dependency path",
+    "remediation": {
+      "unresolved": [
+        {
+          "id": "snyk:lic:npm:goof:GPL-2.0",
+          "packageName": "goof",
+          "semver": {
+            "vulnerable": [
+              ">=0"
+            ]
+          },
+          "creationTime": "2022-09-20T07:58:18.761Z",
+          "description": "GPL-2.0 license",
+          "language": "js",
+          "license": "GPL-2.0",
+          "packageManager": "npm",
+          "publicationTime": "2022-09-20T07:58:18.761Z",
+          "title": "GPL-2.0 license",
+          "type": "license",
+          "severity": "high",
+          "from": [
+            "goof@1.0.1"
+          ],
+          "upgradePath": [],
+          "isUpgradable": false,
+          "isPatchable": false,
+          "isPinnable": false,
+          "isRuntime": false,
+          "name": "goof",
+          "version": "1.0.1",
+          "severityWithCritical": "high"
+        }
+      ],
+      "upgrade": {},
+      "patch": {},
+      "ignore": {},
+      "pin": {}
+    },
+    "filesystemPolicy": false,
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "projectName": "goof",
+    "foundProjectCount": 5,
+    "displayTargetFile": "5/package-lock.json",
+    "path": "/Users/paulspencer/Code/goof"
+  }
+]
